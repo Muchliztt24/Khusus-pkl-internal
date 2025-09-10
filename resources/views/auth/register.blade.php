@@ -1,4 +1,4 @@
-{{-- @extends('layouts.admin')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -63,7 +63,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">{{ __('Register') }</button>
+                                <button type="submit" class="btn btn-primary">{{route('register') }}</button>
                             </div>
                         </div>
                     </form>
@@ -72,8 +72,8 @@
         </div>
     </div>
 </div>
-@endsection --}}
-<!DOCTYPE html>
+@endsection
+{{-- <!DOCTYPE html>
 <html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical">
 
 <head>
@@ -317,4 +317,4 @@
     </form>
 </body>
 
-</html>
+</html> --}}

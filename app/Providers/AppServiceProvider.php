@@ -30,7 +30,7 @@ class AppServiceProvider extends ServiceProvider
                     ->latest()
                     ->first();
 
-                $view->with('keranjang', $latestOrder);
+                $view->with('latestOrder', $latestOrder);
             }
         });
     }
